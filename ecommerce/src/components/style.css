@@ -1,0 +1,24 @@
+h1{
+    color:aliceblue;
+    background-color: blueviolet;
+}
+.mysquare {
+    width: 200px;
+    height: 200px;
+    border: 1px solid yellow;
+    background-color: aqua;
+    animation: movesquare 3s infinite;
+}
+
+@keyframes movesquare {
+    from {
+        transform: rotate(0deg) ;
+        -webkit-transform: rotate(0deg) ;
+        -moz-transform: rotate(0deg) ;
+        -ms-transform: rotate(0deg) ;
+        -o-transform: rotate(0deg) ;
+}
+    to {
+        transform: rotate(360deg);
+    }
+}

@@ -18,4 +18,4 @@ export default class App extends Component {
     )
   }
 }
-// create a parent component with sman,rollno and marks and print the in child component
+// create a parent component with sman,rollno and marks and print the in child component 
